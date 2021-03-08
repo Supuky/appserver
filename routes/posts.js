@@ -5,7 +5,6 @@ import { getPosts, createPost, updatePost, deletePost, likePost } from '../contr
 const router = express.Router();
 
 // localhost:5000/posts
-
 router.get('/', getPosts);
 router.post('/', createPost);
 router.patch('/:id', updatePost);
